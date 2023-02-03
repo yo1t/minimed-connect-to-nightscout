@@ -29,7 +29,7 @@ var Client = exports.Client = function (options) {
   var serverName = options.server || DEFAULT_CARELINKSERVERADDRESS;
   var carelinkServerAddress = serverName;
 
-  var CARELINKEU_LOGIN_URL = 'https://' + carelinkServerAddress + '/patient/sso/login?country=gb&lang=en';
+  var CARELINKEU_LOGIN_URL = 'https://' + carelinkServerAddress + '/patient/sso/login?country=jp&lang=en';
   var CARELINKEU_REFRESH_TOKEN_URL = 'https://' + carelinkServerAddress + '/patient/sso/reauth';
   var CARELINKEU_JSON_BASE_URL = 'https://' + carelinkServerAddress + '/patient/connect/data?cpSerialNumber=NONE&msgType=last24hours&requestTime=';
   var CARELINKEU_TOKEN_COOKIE = 'auth_tmp_token';
